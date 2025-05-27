@@ -1,6 +1,8 @@
 plugins {
-    id("cloudstream-plugin") version "4.0.0"
+    kotlin("jvm") version "1.6.10"
 }
+
+apply(from = "https://raw.githubusercontent.com/recloudstream/cloudstream/master/build.plugin.gradle.kts")
 
 cloudstream {
     language = "hi"
