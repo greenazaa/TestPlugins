@@ -1,15 +1,6 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
-    }
-    dependencies {
-        classpath("com.github.recloudstream:cloudstream:4.5.2")
-    }
+plugins {
+    id("cloudstream-plugin") version "4.0.0"
 }
-
-apply(plugin = "cloudstream-plugin")
 
 cloudstream {
     language = "hi"
