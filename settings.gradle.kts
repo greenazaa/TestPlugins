@@ -4,6 +4,5 @@ rootProject.name = "CloudstreamPlugins"
 // to the includes below.
 
 // Plugins are included like this
-include(
-    "ExampleProvider"
+include("DoraBashProvider")
 )
