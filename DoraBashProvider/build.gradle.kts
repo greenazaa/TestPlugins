@@ -1,5 +1,3 @@
-apply(from = "https://raw.githubusercontent.com/recloudstream/cloudstream/master/build.plugin.gradle.kts")
-
 cloudstream {
     language = "hi"
     description = "Streams Hindi movies and shows from DoraBash"
