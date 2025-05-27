@@ -1,7 +1,3 @@
-plugins {
-    kotlin("jvm") version "1.6.10"
-}
-
 apply(from = "https://raw.githubusercontent.com/recloudstream/cloudstream/master/build.plugin.gradle.kts")
 
 cloudstream {
